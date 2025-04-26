@@ -40,7 +40,7 @@ install_aif360 <- function(method = c("auto", "virtualenv", "conda"),
 
   reticulate::py_install(
     packages       = c("aif360", "numba", "BlackBoxAuditing", "tensorflow", "pandas",
-                       "fairlearn==0.4.6", "protobuf==3.20.1"),
+                       "fairlearn==0.4.6", "protobuf==3.20.3"),
     envname        = envname,
     method         = method,
     conda          = conda,
